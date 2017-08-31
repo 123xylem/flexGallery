@@ -59,7 +59,7 @@ h1{
 	display: flex;
 	justify-content: center;
     margin-bottom: 4rem;
-  background: linear-gradient(to bottom right, #F0F8FF 20%, #007FFF	 90%) 		;
+  background: linear-gradient(to bottom , #F0F8FF 1%, #007FFF	 90%) 		;
 }
 .nav ul{
 	justify-content: space-around;
