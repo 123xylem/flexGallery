@@ -8,11 +8,12 @@
 @media all and (min-width: 670px){
 	.header{
 	width:100%;
-	background-image: cover;
+/*	margin-right: -1rem;
+	margin-left: -1rem;
+*/	background-image: cover;
 	background-image: url("https://cdn.pixabay.com/photo/2016/07/15/03/30/sydney-opera-house-1518191__340.jpg");
 	border-bottom: 1px solid white;
 	 background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
 	}
 
@@ -53,12 +54,11 @@ h1{
 .nav{
 	display: flex;
 	justify-content: center;
-    margin-bottom: 2rem;
-    background-color: gray;
+    margin-bottom: 4rem;
+  background: linear-gradient(to bottom right, #F0F8FF 20%, #007FFF	 90%) 		;
 }
 .nav ul{
 	justify-content: space-around;
-	flex-grow: 1;
 display: flex;
 flex-wrap: wrap;
     -webkit-padding-start: 0;
@@ -75,7 +75,7 @@ padding:1rem;
 
 }
 .nav ul li:hover{
-background-color: silver;
+background-color: rgba(255,255,255,0.4);
 
 }
 .nav ul li a{
@@ -97,15 +97,18 @@ justify-content:  center;
 	margin-bottom: 2rem;
 }
 
+.box:hover{
+	background: radial-gradient( #fff, #596a72, #cedce7 );	
 
+}
 .box{
 	display: flex;
-	background-color: red;
 	margin-top:0.3rem;
 	padding:0.3rem;
 	flex-basis: 100%;
 	flex-direction: column;
-}
+/*	border:2px solid black;
+*/}
 
 @media all and (max-width:350px){
 	.box >div{
@@ -116,16 +119,17 @@ justify-content:  center;
 @media all and (min-width: 770px){
 	.box{
 		flex-basis: 48%;
-		background-color: silver;
-	}
+/*background: radial-gradient( #fff, #596a72, #cedce7 );	
+*/	}
 }
 
 
 @media all and (min-width: 1110px){
 	.box{
 		flex-basis: 30%;
-		background-color: blue;
-	}
+/*background: radial-gradient( #fff, #596a72, #cedce7 );	
+*/}
+
 }
 
 .box h4{
@@ -147,7 +151,7 @@ object-fit: contain;
 	margin-top: 2rem;
 	display:flex;
 	border:1px solid black;
-	background-color: white;
+	background-color: black;
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
@@ -157,7 +161,7 @@ object-fit: contain;
 
 @media all and (min-width: 550px){
 	.textBox{
-		background-color: blue;
+		background-color: black;
 		flex-direction: column;
 			flex-basis: 100%;
 			justify-content: right;
@@ -169,7 +173,7 @@ object-fit: contain;
 
 @media all and (min-width: 1100px){
 	.textBox{
-		background-color: pink;
+		background-color: black;
 				flex-direction: row;
 
 
@@ -179,7 +183,7 @@ object-fit: contain;
 
 .textBox > div{
 	padding:0.5rem;
-	background-color: purple;
+	background-color: silver;
 	flex:1;
 	justify-content: center;
 }
