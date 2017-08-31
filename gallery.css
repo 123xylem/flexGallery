@@ -1,3 +1,7 @@
+body{
+	margin:0;
+}	
+
 	@media all and (max-width: 670px){
 		.header{
 		background-color: black;
@@ -202,4 +206,16 @@ object-fit: contain;
 
 }
 
+footer{
+	  position: absolute;
+	width:100%;
+	background-color: black;
+	color:silver;
 
+}
+
+footer p{
+	font-size:0.9rem;
+	float:right;
+	margin-right: 1rem;
+}
